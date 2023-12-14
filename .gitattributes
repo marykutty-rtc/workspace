@@ -1,0 +1,9 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.ts filter=lfs diff=lfs merge=lfs -text
+*html filter=lfs diff=lfs merge=lfs -text
+*scss filter=lfs diff=lfs merge=lfs -text
+*.scss filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+TaskWorkspace/README[[:space:]](2).zip filter=lfs diff=lfs merge=lfs -text
+TaskWorkspace/README.zip filter=lfs diff=lfs merge=lfs -text

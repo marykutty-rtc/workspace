@@ -1,6 +1,6 @@
 # Task
 
-1. Create a login form.
+1. Create a login form
 2. After successful login,
    - navigate to home page at "/seller-products"
    - display seller products from the api response (api details given below)

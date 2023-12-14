@@ -1,9 +1,9 @@
-# Task 
+# Task
 
-1. Create a login form
+1. Create a login form.
 2. After successful login,
    - navigate to home page at "/seller-products"
-   - display seller products from the api response (api details given below) 
+   - display seller products from the api response (api details given below)
    - display a logout button
 3. For calling gwt seler products api, you will have to pass an auth header in request.
 4. The token is in the response of login endpoint
@@ -13,16 +13,19 @@
 ## Endpoints to use
 
 1. Login - https://qa-api.quotesouk.com/api/v1/BuyerAuth/authenticateWithCredentials
-   
+
 Request Parameters(sample)
+
 ```
 {
   "email":"jinoshajiv@gmail.com",
   "fcm_Token":"",
   "password":"Jino@123"
-} 
+}
 ```
+
 Response Parameters(sample)
+
 ```
 {
     "succeeded": true,
@@ -46,10 +49,11 @@ Response Parameters(sample)
 ```
 
 2. Get all Seller Products - https://qa-api.quotesouk.com/api/v1/SellerProduct/GetAllTopSellerProducts
-   
+
 Request Parameters(sample): none
 
 Response Parameters(sample)
+
 ```
 {
     "totalRecords": 218,
@@ -103,6 +107,7 @@ Response Parameters(sample)
   ]
 }
 ```
+
 In the task, please use
 
 1. lazy-loading feature module
